@@ -1,0 +1,25 @@
+@font-face {
+
+  font-family: 'Avenir LT Std';
+  src: url('./fonts/avenir/AvenirLTStd-Roman.woff2') format('woff2'),
+      url('./fonts/avenir/AvenirLTStd-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+ }
+ @font-face {
+     font-family: 'BrandonGrotesqueWeb';
+     src: url('./fonts/brandon-bold/BrandonGrotesqueWeb-Bold.woff2') format('woff2'),
+         url('./fonts/brandon-bold/BrandonGrotesqueWeb-Bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Lovelo Line';
+     src: url('./fonts/lovelo/LoveloLineLight.woff2') format('woff2'),
+         url('./fonts/lovelo/LoveloLineLight.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+ }

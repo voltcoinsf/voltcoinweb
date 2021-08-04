@@ -1,0 +1,1037 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+body {
+    font-family: 'Avenir LT Std';
+    font-size: 13px;
+    color: #fff;
+    background-color: #100d20;
+}
+
+/**********************************************  Default   **********************************************/
+h1 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'BrandonGrotesqueWeb';
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'BrandonGrotesqueWeb';
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Avenir LT Std';
+}
+
+p {
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 12px;
+    font-family: 'Avenir LT Std';
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+ul,
+ol {
+    margin: 0px;
+}
+
+/***********************************************************************************************************/
+/**header **/
+#header {
+    padding: 15px 50px;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
+
+
+.header_logo img {
+    width: 100px;
+}
+
+#header li.nav-item a {
+    color: #F4F4F5 !important;
+    font-size: 18px;
+    font-family: 'Avenir LT Std';
+    line-height: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#header li.nav-item a:hover,
+#header li.nav-item a:active {
+    color: #E96687 !important;
+}
+
+li.nav-item {
+    padding: 10px 15px;
+}
+.right_button a:hover{
+
+  transition: all .5s ease;
+  box-shadow: 1px 1px 18px 3px #e9668796;
+}
+.right_button a{
+  display: block;
+  background: #E96687;
+padding: 13px 60px 13px 35px;
+border-radius: 25px;
+color: #fff;
+font-size: 15px;
+text-transform: uppercase;
+font-family: 'Avenir LT Std';
+position: relative;
+transition: all .5s ease;
+}
+.right_button a:before {
+  content: '';
+  background-image: url('./assets/right_arrow.png');
+  height: 9px;
+  width: 18px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  z-index: 999;
+  transform: translateY(-50%);
+}
+/**header end **/
+
+/**section_one **/
+.background_footer{
+    background: url(./assets/footer_background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+  }
+  #section_one{
+        padding-top: 100px;
+    background: url(./assets/banner.jpg) no-repeat;
+    background-size: cover;
+        height: 750px;
+  }
+  .banner_title{
+    font-size: 58px;
+    line-height: 68px;
+    font-weight: '900';
+    color: #fff;
+    font-family: 'BrandonGrotesqueWeb';
+    padding-bottom: 30px;
+  }
+  .banner_title span{
+    color: #E96687;
+  }
+  .banner_content{
+    font-size: 20px;
+    line-height: 30px;
+   font-family: 'Avenir LT Std';
+    color: #fff;
+   padding-bottom: 100px;
+  
+  }
+  .banner_buttons .order_btn:hover{
+    box-shadow: 1px 1px 18px 3px #e96687a1;
+    transition: all .5s ease;
+  }
+  .banner_buttons .order_btn{
+    background: #E96687;
+  padding: 13px 50px;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Avenir LT Std';
+  border: 2px solid #E96687;
+      margin-right: 15px;
+      transition: all .5s ease;
+  }
+  .banner_buttons .watch_btn{
+    background: #100D20;
+  padding: 13px 50px;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Avenir LT Std';
+  border: 2px solid #FFFFFF;
+  transition: all .5s ease;
+  }
+  .banner_buttons .watch_btn:hover{
+    box-shadow: 1px 1px 18px 3px #ffffff63;
+    transition: all .5s ease;
+  }
+  .banner_right_phone{
+    padding-left: 35px;
+  }
+
+  /**section_one end **/
+
+/**section_two**/
+.road_map{
+    padding: 15px 0px;
+  margin-top: 70px;
+  border-top: 4px solid #3E3B4A;
+  text-align: right;
+  }
+  .road_map h3{
+    font-family: 'BrandonGrotesqueWeb';
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  position: relative;
+      padding-right: 65px;
+  }
+  .road_map h3:before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 65px;
+    bottom: 0;
+    right: 45px;
+    background: #82818A;
+  }
+  .road_map p{
+    font-family: 'BrandonGrotesqueWeb';
+  font-size: 16px;
+  line-height: 26px;
+  color: #E96687;
+  text-transform: uppercase;
+      padding-right: 65px;
+  }
+  #section_two{
+  
+    padding: 100px 0px;
+    background: url(./assets/section_2.jpg) no-repeat;
+    background-size: cover;
+        background-position: center bottom;
+  }
+  .volt{
+    text-align: center;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 133px;
+  }
+  .volt img{
+    margin-bottom: 30px;
+  }
+  .volt h2{
+    font-family: 'BrandonGrotesqueWeb';
+  font-size: 28px;
+  line-height: 38px;
+  color: #fff;
+  }
+  .volt p{
+  font-family: 'Avenir LT Std';
+  font-size: 17px;
+  line-height: 27px;
+  color: #C9C9D8;
+  padding-bottom: 15px;
+  }
+  
+  .vision_title {
+      font-family: 'BrandonGrotesqueWeb';
+      font-size: 125px;
+      line-height: 135px;
+      font-weight: '900';
+      color: #fff;
+      text-align: center;
+      opacity: .1;
+      margin-bottom: -50px;
+      text-transform: uppercase;
+  }
+  .vision_first_row h3 {
+      font-family: 'BrandonGrotesqueWeb';
+      font-size: 45px;
+      line-height: 55px;
+      font-weight: '900';
+      color: #fff;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  .vision_first_row h4 {
+      font-family: 'Avenir LT Std';
+      font-size: 24px;
+      line-height: 34px;
+      color: #DEDEDF;
+      padding-bottom: 25px;
+  }
+  .vision_first_row p {
+      font-family: 'Avenir LT Std';
+      font-size: 17px;
+      line-height: 27px;
+      color: #DEDEDF;
+      padding-bottom: 25px;
+  }
+  .vision_first_row{
+    text-align: center;
+  
+  }
+  .row.vision_row {
+      padding:100px 0px;
+  }
+  .map h2{
+    text-align: center;
+    font-family: 'BrandonGrotesqueWeb';
+    font-size: 38px;
+    line-height: 48px;
+    color: #fff;
+  }
+  .road_map p.active{
+    color:#3F3D48;
+  }
+  
+  /**section_two end **/
+
+  /**section_three**/
+
+#section_three{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: url(./assets/section_3.jpg) no-repeat;
+    background-size: cover;
+        background-position: center bottom;
+  }
+  .token_right_img_outer{
+    background: url(./assets/tab_bg.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+    text-align: center;
+    background-size: 442px;
+  height: 465px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .token_right_img_outer img{
+  
+        width: 260px;
+  }
+  .token_number{
+   font-family: 'Lovelo Line';
+   color: #AA4B67;
+  font-size: 60px;
+  line-height: 70px;
+  }
+  h2.token_title{
+    font-family: 'BrandonGrotesqueWeb';
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: '900';
+    color: #fff;
+  }
+  
+  .token_right p,.token_right ul li{
+    color: #D0D0D9;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .token_right p span{
+    color: #fff;
+    font-weight: 900;
+  }
+  .token_right ul:last-child{
+      margin-right: 0px;
+  }
+  .token_right ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 70px;
+    vertical-align: top;
+  
+  }
+  .market_title{
+    font-family: 'BrandonGrotesqueWeb';
+    font-size: 125px;
+    line-height: 135px;
+    font-weight: '900';
+    color: #fff;
+    text-align: center;
+        opacity: .1;
+        margin-bottom: -50px;
+        text-transform: uppercase;
+  }
+  .market_first_row h3{
+    font-family: 'BrandonGrotesqueWeb';
+    font-size: 45px;
+    line-height:55px;
+    font-weight: '900';
+    color: #fff;
+    text-align: center;
+  }
+  .market_first_row p{
+    font-family: 'Avenir LT Std';
+    font-size: 24px;
+    line-height: 34px;
+    color: #DEDEDF;
+    padding-bottom: 25px;
+  }
+  .market_first_row p span{
+      color: #CB5977;
+      border-bottom: 2px solid;
+  }
+  .row market_second_outer p{
+    font-family: 'Avenir LT Std';
+    font-size: 17px;
+    line-height: 27px;
+    color: #DEDEDF;
+  
+  }
+  .market_second_outer{
+    padding-top: 50px;
+  }
+  .token_right{
+    margin-bottom: 40px;
+  }
+  .market_first_row h3{
+      margin-bottom: 30px;
+  }
+  
+  
+  /**section_three end **/
+
+
+  /**section_four **/
+#section_four{
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  #section_four .problem_outer{
+    padding-bottom: 70px;
+  }
+  .problem_tag,.solution_tag{
+    font-family: 'BrandonGrotesqueWeb';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: '900';
+    color: #fff;
+    text-transform: uppercase;
+    background: #DF89BB;
+    padding:7px 25px;
+    display: inline-block;
+    margin-bottom: 25px;
+  
+  }
+  .problem,.solution{
+    text-align: right;
+  
+  }
+  #section_four h3{
+    font-family: 'BrandonGrotesqueWeb';
+    font-size: 30px;
+    line-height: 36px;
+    position: relative;
+    color: #fff;
+  }
+  
+  .problem:before,.solution:before{
+    content: '';
+    background: #E7E7E7;
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    right: 0;
+    top: 85px;
+  }
+  .problem,.solution{
+    padding-right: 130px;
+    position: relative;
+  }
+  #section_four .problem_desc h2,#section_four .solution_desc h2{
+    font-family: 'Avenir LT Std';
+    font-size: 24px;
+    line-height: 34px;
+    color: #DFDCDE;
+    padding-bottom: 25px;
+  }
+  #section_four p{
+    font-family: 'Avenir LT Std';
+    font-size: 18px;
+    line-height: 28px;
+    color: #DFDCDE;
+  }
+  #section_four{
+    background: url(./assets/section_four.png) no-repeat;
+    background-size: cover;
+        background-position: center top;
+  }
+  
+  /**section_four end **/
+
+  #section_five{
+    background: url(./assets/eco.png) no-repeat;
+    background-size: cover;
+      background-position: center top;
+  }
+  h2.eco_title{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: '900';
+    color: #fff;
+    font-family: 'BrandonGrotesqueWeb';
+    padding-bottom: 30px;
+  }
+  .eco_content_outer{
+  padding-top: 70px;
+  padding-bottom: 30px;
+  }
+  .eco_content_outer h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: '900';
+    color: #fff;
+    font-family: 'BrandonGrotesqueWeb';
+    padding-bottom: 30px;
+  }
+  #section_five .eco_content_outer p,.eco_content_outer ul li{
+    font-size: 18px;
+    font-family: 'Avenir LT Std';
+    line-height: 28px;
+    color: #fff;
+  }
+  .eco_images{
+    padding-bottom: 70px;
+  }
+  .eco_content_outer ul{
+    margin-bottom: 25px;
+    margin-left: 30px;
+  }
+  .eco_left_phone img{
+    width: 100%;
+  }
+  .eco_left_phone{
+        margin-top: -130px;
+  }
+  .eco_app{
+    margin-right: 15px;
+  }
+  /**section_five **/
+
+/**section_six **/
+#section_six .member h2{
+  font-family: 'BrandonGrotesqueWeb';
+    font-size: 28px;
+    line-height: 38px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+#section_six  .member p{
+    font-family: 'Avenir LT Std';
+    font-size: 17px;
+    line-height: 27px;
+    color: #C9C9D8;
+    padding-bottom:15px;
+}
+#section_six .member img{
+  margin-bottom: 15px;
+}
+#section_six .member{
+  text-align: center;
+
+}
+.team_outer{
+    padding: 40px 0px 130px 0px;
+}
+i{
+color: #FFFFFF !important;
+margin-right:20px;
+font-size: 20px;
+}
+.social_media a:last-child i{
+  margin-right:0px;
+  font-size: 20px;
+}
+#section_six{
+  padding: 100px 0px;
+}
+#section_six form{
+  display: flex;
+flex-direction: column;
+}
+#section_six button{
+    align-self: center;
+    background: #DF89BB;
+  padding: 13px 50px;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'BrandonGrotesqueWeb';
+  border: 2px solid #DF89BB;
+  transition: all .5s ease;
+  margin-top: 20px;
+}
+#section_six button:hover{
+    box-shadow: 1px 1px 18px 3px #df89bb7d;
+    transition: all .5s ease;
+  }
+#section_six form input,#section_six form textarea{
+background: #1C192B;
+color: #fff;
+padding: 15px 20px;
+margin-bottom: 25px;
+border-color: #1C192B;
+}
+#section_six form input::placeholder,#section_six form textarea::placeholder{
+  color:#fff;
+  font-family: 'Avenir LT Std';
+  font-size: 14px;
+}
+.contact_content_outer{
+  text-align: center;
+}
+#section_six .contact_content_outer h2{
+  font-size:55px;
+  line-height: 65px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#section_six .contact_content_outer p{
+  font-size: 20px;
+  line-height: 30px;
+ font-family: 'Avenir LT Std';
+  color: #fff;
+ padding-bottom: 60px;
+}
+
+/**section_six end **/
+
+/**footer**/
+
+#footer{
+  padding: 70px 0px;
+}
+.footer_logo img{
+  width: 100px;
+margin-bottom: 30px;
+}
+.footer_menu h2{
+color:#D381B1;
+font-family: 'BrandonGrotesqueWeb';
+font-size: 24px;
+line-height:34px;
+margin-bottom: 20px;
+
+}
+.footer_menu li a{
+color:#D2D2D4;
+ font-family: 'Avenir LT Std';
+font-size: 17px;
+line-height:27px;
+
+}
+.footer_email a{
+  color:#D381B1;
+  text-decoration: underline;
+  font-family: 'Avenir LT Std';
+ font-size: 20px;
+ line-height: 30px;
+}
+.footer_phone a{
+  color:#fff;
+  text-decoration: underline;
+  font-family: 'Avenir LT Std';
+ font-size: 20px;
+ line-height: 30px;
+}
+.copyright{
+color:#F5F4F5;
+ font-family: 'Avenir LT Std';
+font-size: 17px;
+line-height:27px;
+
+}
+.footer_second{
+  padding-top: 90px;
+}
+.footer_icons{
+  text-align: right;
+}
+.container_max{
+  max-width: 900px;
+margin: 0 auto;
+}
+/**footer end **/
+
+
+@media(max-width:1200px) and (min-width:1025px){
+  .vision_title,.market_title {
+    font-size: 75px;
+    line-height: 85px;
+  }
+  .eco_left_phone {
+    margin-top: -252px;
+}
+.token_right_img_outer {
+
+    background-size: 364px !important;
+  }
+}
+@media(max-width:1024px){
+  .token_right_img_outer {
+
+      background-size: 364px !important;
+    }
+  .vision_title,.market_title {
+    font-size: 75px;
+    line-height: 85px;
+  }
+  #header li.nav-item a {
+
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+li.nav-item {
+    padding: 10px 5px;
+}
+.right_button a {
+
+    padding: 9px 44px 9px 20px;
+    font-size: 13px;
+  }
+  .header_logo img {
+      width: 68px;
+  }
+  .banner_title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .road_map h3:before {
+
+    right: 15px;
+  }
+  .road_map p,.road_map h3 {
+
+    padding-right: 30px;
+}
+.market_first_row h3 {
+
+    font-size: 30px;
+    line-height: 40px;
+}
+.footer_logo img {
+    width: 65px;
+  }
+  .footer_email a {
+
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer_menu h2 {
+
+    font-size: 19px;
+    line-height: 29px;
+  }
+  #section_six .member h2 {
+
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #section_four h3 {
+
+      font-size: 22px;
+      line-height: 32px;
+    }
+
+}
+@media(max-width:767px) {
+    .row.vision_row {
+      padding: 30px 0px;
+  }
+    .banner_title {
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+    }
+    #header {
+      padding: 15px 0px;
+      position: static;
+    }
+    .banner_content {
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+      font-family: 'Avenir LT Std';
+      color: #fff;
+      padding-bottom: 49px;
+  }
+  .banner_buttons .order_btn {
+      display: block;
+      text-align: center;
+      margin-right: 0;
+      margin-bottom: 20px;
+      padding: 9px 25px;
+    }
+    .banner_buttons .watch_btn{
+      display: block;
+      text-align: center;
+      padding: 9px 25px;
+    }
+    .banner_right_phone {
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    #section_one {
+      padding-left: 25px;
+      padding-right: 25px;
+      height: auto;
+      padding-top: 50px;
+  }
+  #section_two {
+      padding: 30px 25px;
+    }
+    .road_map {
+
+      border-top: none;
+      text-align: center;
+  }
+  .road_map h3:before{
+    display: none;
+  }
+  .road_map p, .road_map h3 {
+      padding-right: 0;
+  }
+  .vision_title, .market_title {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 0;
+  }
+  .vision_first_row {
+
+      padding: 0px 0px;
+  }
+  .vision_first_row h3 {
+      font-family: 'BrandonGrotesqueWeb';
+      font-size: 25px;
+      line-height: 35px;
+  }
+  h2.token_title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    #section_three {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      .problem:before, .solution:before{
+        display: none;
+      }
+      .problem, .solution {
+      padding-right: 0;
+      text-align: center;
+  }
+  #section_four {
+      padding-top: 50px;
+      padding-bottom: 30px;
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  #section_four .problem_desc h2, #section_four .solution_desc h2 {
+      padding-top: 30px;
+      padding-bottom: 5px;
+  }
+  .problem_desc,.solution_desc{
+    text-align: center;
+  }
+  #section_four .problem_outer {
+      padding-bottom: 30px;
+  }
+  .eco_left_phone {
+      margin-top: 0;
+  }
+  #section_five{
+    padding: 30px 25px;
+  }
+  .eco_content_outer {
+      padding-top: 30px;
+      padding-bottom: 15px;
+  }
+  h2.eco_title {
+      font-size: 35px;
+      line-height: 45px;
+      padding-bottom: 15px;
+  }
+  #section_six {
+      padding: 30px 25px;
+  }
+  #section_six .contact_content_outer h2 {
+      font-size: 40px;
+      line-height: 50px;
+      margin-bottom: 15px;
+    }
+    #section_six .contact_content_outer p {
+      font-size: 18px;
+      line-height: 28px;
+      font-family: 'Avenir LT Std';
+      color: #fff;
+      padding-bottom: 0px;
+  }
+  #section_six .member {
+      margin-bottom: 30px;
+
+  }
+  .team_outer {
+      padding: 40px 0px 30px 0px;
+  }
+  .form-row{
+    display: block;
+  }
+  #section_six button {
+      align-self: center;
+      background: #DF89BB;
+      padding: 9px 50px;
+      border-radius: 0px;
+      color: #fff;
+      font-size: 14px;
+    }
+    #footer {
+      padding: 30px 25px;
+  }
+  .footer_row{
+    text-align: center;
+  }
+  .footer_second {
+      padding-top: 30px;
+      text-align: center;
+  }
+  .footer_icons {
+      text-align: center;
+      margin-top: 20px;
+  }
+  .eco_images {
+      padding-bottom: 30px;
+      text-align: center;
+  }
+  .eco_app {
+    display: block;
+  margin-bottom: 15px;
+      margin-right: 0;
+    }
+    .market_first_row p,.vision_first_row h4 {
+      font-size: 17px;
+      line-height: 27px;
+      text-align: center;
+    }
+    .market_first_row h3 {
+      font-size: 22px;
+      line-height: 32px;
+  }
+  .map h2 {
+
+      font-size: 28px;
+      line-height: 38px;
+    }
+    .road_map {
+
+      margin-top: 5px;
+  }
+  .header_logo img {
+      width: 70px;
+    }
+    .header_logo{
+      text-align: center;
+    }
+    .market_second_outer img{
+      margin-bottom: 15px;
+    }
+    .market_second_outer p{
+      text-align: center;
+    }
+    .volt h2 {
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .navbar-light .navbar-toggler,.navbar-light .navbar-toggler:focus {
+      background-color: #E96687;
+      color: #E96687;
+      border-color: #E96687;
+      outline: none;
+    }
+    #header .menu_outer{
+      order: 3;
+  justify-content: flex-end;
+    }
+
+      #header   #main-menu{
+          justify-content: flex-end !important;
+          padding: 0;
+        }
+        .navbar-toggler {
+            padding: 2px 5px;
+          }
+          .logo_outer {
+      flex-basis: 100%;
+  }
+
+  .menu_outer {
+      flex-basis: 35%;
+  }
+
+  .header_button_outer {
+      flex-basis: 65%;
+      justify-content: initial !important;
+  }
+  .navbar-light .navbar-toggler-icon {
+      background-position: 0px -3px;
+      background-size: 20px;
+      width: 20px;
+      height: 20px;
+    }
+    .right_button a {
+      padding: 7px 44px 7px 20px;
+    }
+    .logo_outer{
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #E96687;
+    }
+    #header .container {
+      max-width: 100%;
+  }
+  .mobile_menu{
+    background: #E96687;
+  margin-top: 10px;
+  }
+  .mobile_menu li.nav-item {
+      border-bottom: 1px solid #e14c71;
+      padding: 5px 15px;
+  }
+  .footer_menu h2 {
+
+      margin-bottom: 0;
+      margin-top: 20px;
+  }
+}
+
+  
