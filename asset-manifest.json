@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/voltcoinweb/static/css/main.130c7a67.chunk.css",
+    "main.js": "/voltcoinweb/static/js/main.ea287766.chunk.js",
+    "main.js.map": "/voltcoinweb/static/js/main.ea287766.chunk.js.map",
+    "runtime-main.js": "/voltcoinweb/static/js/runtime-main.d5822ac1.js",
+    "runtime-main.js.map": "/voltcoinweb/static/js/runtime-main.d5822ac1.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/voltcoinweb/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.34bcc1bc.chunk.js": "/voltcoinweb/static/js/2.34bcc1bc.chunk.js",
+    "static/js/2.34bcc1bc.chunk.js.map": "/voltcoinweb/static/js/2.34bcc1bc.chunk.js.map",
+    "index.html": "/voltcoinweb/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/voltcoinweb/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.130c7a67.chunk.css.map": "/voltcoinweb/static/css/main.130c7a67.chunk.css.map",
+    "static/js/2.34bcc1bc.chunk.js.LICENSE.txt": "/voltcoinweb/static/js/2.34bcc1bc.chunk.js.LICENSE.txt",
+    "static/media/fontface.css": "/voltcoinweb/static/media/LoveloLineLight.b9b3a2e8.woff2",
+    "static/media/App.css": "/voltcoinweb/static/media/tab_bg.a31de68d.png",
+    "static/media/banner_image.png": "/voltcoinweb/static/media/banner_image.8924a1b9.png",
+    "static/media/eco_mobile.png": "/voltcoinweb/static/media/eco_mobile.7ef5a3f6.png",
+    "static/media/img_three.png": "/voltcoinweb/static/media/img_three.f9aa28db.png",
+    "static/media/img_two.png": "/voltcoinweb/static/media/img_two.82a17025.png",
+    "static/media/one.png": "/voltcoinweb/static/media/one.3dec62a5.png",
+    "static/media/three.png": "/voltcoinweb/static/media/three.45df39e5.png",
+    "static/media/token_right_img.png": "/voltcoinweb/static/media/token_right_img.c4e29e2a.png",
+    "static/media/two.png": "/voltcoinweb/static/media/two.be853d56.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5822ac1.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.34bcc1bc.chunk.js",
+    "static/css/main.130c7a67.chunk.css",
+    "static/js/main.ea287766.chunk.js"
+  ]
+}
